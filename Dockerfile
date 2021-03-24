@@ -4,4 +4,5 @@ RUN apk add --no-cache \
   cmake \
   clang \
   gcc \
+  gmock \
   gtest-dev
