@@ -2,5 +2,7 @@ FROM alpine:3.13
 
 RUN apk add --no-cache \
   cmake \
+  clang \
   gcc \
-  gcc-arm-none-eabi
+  gcc-arm-none-eabi \
+  gtest-dev
